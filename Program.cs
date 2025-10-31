@@ -10,13 +10,15 @@ namespace WebAppProductsandCategories
             // Add services to the container.
             builder.Services.AddControllersWithViews();
 
+            
             // Register DataAccess with dependency injection
             builder.Services.AddSingleton<CategoryData>();
 
             // Register DataAccess with dependency injection
             builder.Services.AddSingleton<ProductData>();
 
-
+            //Register DataAccess with dependency injection
+            //builder.Services.AddSingleton<CustomerData>();
 
 
             var app = builder.Build();

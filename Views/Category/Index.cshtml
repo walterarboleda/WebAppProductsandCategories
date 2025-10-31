@@ -2,7 +2,7 @@
 
 <h1>Categories</h1>
 
-<a href="@Url.Action("Create")">Create New Category</a>
+<a href="@Url.Action("Create")" class="btn btn-primary">Create New Category</a>
 
 <table>
     <thead>
@@ -19,8 +19,8 @@
                 <td>@category.CategoryId</td>
                 <td>@category.Name</td>
                 <td>
-                    <a href="@Url.Action("Edit", new { id = category.CategoryId })">Edit</a> |
-                    <a href="@Url.Action("Delete", new { id = category.CategoryId })">Delete</a>
+                    <a href="@Url.Action("Edit", new { id = category.CategoryId })" class="btn btn-warning btn-sm">Edit</a>
+                    <a href="@Url.Action("Delete", new { id = category.CategoryId })" class="btn btn-danger btn-sm">Delete</a>
                 </td>
             </tr>
         }
