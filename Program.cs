@@ -17,10 +17,7 @@ namespace WebAppProductsandCategories
             // Register DataAccess with dependency injection
             builder.Services.AddSingleton<ProductData>();
 
-            //Register DataAccess with dependency injection
-            //builder.Services.AddSingleton<CustomerData>();
-
-
+            
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
