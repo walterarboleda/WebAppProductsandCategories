@@ -28,8 +28,11 @@ CategoryId INT FOREIGN KEY REFERENCES Categories(CategoryId)
 GO
 
 ## SQL Server 2021 installed packages with the Nuget Manager:
+
 Microsoft.Data.SqlClient
+
 System.Data.SqlClient
+
 Microsoft.AspNetCore.Mvc.TagHelpers
 
 ## References:
